@@ -1,0 +1,70 @@
+/* Expo Listings */
+.expos {
+  padding: 50px 20px;
+  background-color: #1a1a1a;
+  text-align: center;
+}
+
+.expos h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: white;
+  animation: slideIn 1s ease-out;
+}
+
+.expos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.expo-card {
+  background: linear-gradient(135deg, #333, #444);
+  padding: 20px;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeIn 1s ease-out;
+}
+
+.expo-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.expo-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.expo-card .expo-date {
+  font-size: 1rem;
+  color: #ff6f61;
+  margin-bottom: 10px;
+}
+
+.expo-card .expo-location {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.expo-card .expo-description {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #007bff, #00bfff);
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 123, 255, 0.3);
+}

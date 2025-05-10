@@ -1,0 +1,79 @@
+/* Profile Page Styles */
+.profile-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #333, #444);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 1s ease-out;
+}
+
+.profile-info {
+  margin-bottom: 20px;
+}
+
+.profile-info p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #ccc;
+}
+
+.profile-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn-change-password, .btn-update-email, .btn-request-admin {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-change-password {
+  background: linear-gradient(90deg, #007bff, #00bfff);
+}
+
+.btn-change-password:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 123, 255, 0.3);
+}
+
+.btn-update-email {
+  background: linear-gradient(90deg, #28a745, #218838);
+}
+
+.btn-update-email:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(40, 167, 69, 0.3);
+}
+
+.btn-request-admin {
+  background: linear-gradient(90deg, #ffc107, #e0a800);
+  color: #000;
+}
+
+.btn-request-admin:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 193, 7, 0.3);
+}
+
+.request-pending {
+  color: #ffc107;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.alert {
+  padding: 10px;
+  background: linear-gradient(90deg, #28a745, #218838);
+  color: white;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
