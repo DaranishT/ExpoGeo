@@ -1,6 +1,6 @@
 # ExpoGeo
 
-[cite_start]ExpoGeo is an interactive wiki-based portal designed to streamline expo management by centralizing schedules, exhibitor information, and event documentation[cite: 20, 22]. It serves as a comprehensive platform for attendees, organizers, and administrators to connect and manage event data efficiently.
+ExpoGeo is an interactive wiki-based portal designed to streamline expo management by centralizing schedules, exhibitor information, and event documentation. It serves as a comprehensive platform for attendees, organizers, and administrators to connect and manage event data efficiently.
 
 ![Project Screenshot](screenshots/1.png)
 
@@ -50,11 +50,11 @@ Follow these steps to get the project running on your local machine:
 
 | Login Page | 
 
-| ![Login Page](screenshots/5.png)
+ ![Login Page](screenshots/5.png)
 
 | Sign In Page| 
 
-|![SignIn Page](screenshots/6.png)
+![SignIn Page](screenshots/6.png)
 
 | Dashboard |
 
@@ -65,10 +65,10 @@ Follow these steps to get the project running on your local machine:
 
 ##  Features
 
-* [cite_start]**Interactive Wiki Portal:** Centralized hub for accessing expo schedules, exhibitor information, and comprehensive event documentation[cite: 22].
-* [cite_start]**Role-Based Access Control (RBAC):** Secure authentication system separating **Attendees**, **Organizers**, and **Admins**, complete with specific CRUD functionality for each role[cite: 23].
-* [cite_start]**Smart Itinerary & Reporting:** Built-in tools for personal itinerary planning, task tracking for organizers, and automated monthly downloadable reports[cite: 24].
-* [cite_start]**Real-Time Communication:** Integrated web chat system enabling live communication between visitors and participants during events.
+* **Interactive Wiki Portal:** Centralized hub for accessing expo schedules, exhibitor information, and comprehensive event documentation.
+* **Role-Based Access Control (RBAC):** Secure authentication system separating **Attendees**, **Organizers**, and **Admins**, complete with specific CRUD functionality for each role.
+* **Smart Itinerary & Reporting:** Built-in tools for personal itinerary planning, task tracking for organizers, and automated monthly downloadable reports.
+* **Real-Time Communication:** Integrated web chat system enabling live communication between visitors and participants during events.
 
 ##  Contributing
 
