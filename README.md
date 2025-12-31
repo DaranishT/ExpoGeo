@@ -48,9 +48,20 @@ Follow these steps to get the project running on your local machine:
 
 ## Screenshots
 
-| Login Page | Sign In Page| Dashboard |
-|:---:|:---:|
-| ![Login Page](screenshots/5.png)|![SignIn Page](screenshots/6.png)| ![Dashboard](screenshots/2.png) |
+| Login Page | 
+
+| ![Login Page](screenshots/5.png)|
+
+| Sign In Page| 
+
+|![SignIn Page](screenshots/6.png)|
+
+| Dashboard |
+
+![Dashboard](screenshots/2.png)|
+![Dashboard](screenshots/3.png)|
+![Dashboard](screenshots/4.png)|
+![Dashboard](screenshots/7.png)|
 
 ##  Features
 
